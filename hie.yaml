@@ -1,0 +1,10 @@
+cradle:
+  stack:
+    - path: "./src"
+      component: "tic-tac:lib"
+
+    - path: "./app"
+      component: "tic-tac:exe:tic-tac-exe"
+
+    - path: "./test"
+      component: "tic-tac:test:tic-tac-test"
